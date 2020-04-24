@@ -74,16 +74,38 @@ header {
 .classa { 
 
     float: right;
-    font-weight: 600;
-    position: absolute;
-    margin-left: 1000px;
+    font-weight: 4em;
+    font-style: bold;
+    position: relative;
+
     font-size: large;
-    margin-top: 30px;
-    text-decoration: unset;
+
+
     color: white;
     padding-left: 10;
     font-size: 20px;
     
+}
+
+.classa li{
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+.classa li:hover{
+    display: inline-block;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    background-color: #444455;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+.classa li a{
+    
+   text-decoration: none;
+
 }
 
 .h2 {
